@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  modelo: MyString
+  descripcion: MyText
+  fecha_entrada: 2017-05-07 21:32:24
+  cliente: 1
+  marca: MyString
+  nro_serie: MyString
+  descripcion_falla: MyText
+  cantidad: 1
+
+two:
+  modelo: MyString
+  descripcion: MyText
+  fecha_entrada: 2017-05-07 21:32:24
+  cliente: 1
+  marca: MyString
+  nro_serie: MyString
+  descripcion_falla: MyText
+  cantidad: 1
