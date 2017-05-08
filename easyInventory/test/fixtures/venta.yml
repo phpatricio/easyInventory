@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id_usuario: 1
+  id_producto: 1
+  fecha_venta: 2017-05-07 21:45:30
+  precio_venta: 1
+
+two:
+  id_usuario: 1
+  id_producto: 1
+  fecha_venta: 2017-05-07 21:45:30
+  precio_venta: 1
