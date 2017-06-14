@@ -46,7 +46,7 @@ class VentumController < ApplicationController
   private
 
   def set_venta
-    @taller = Venta.find(params[:id])
+    @venta = Venta.find(params[:id])
   end
 
 
