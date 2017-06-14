@@ -1,5 +1,5 @@
 class MovimientoController < ApplicationController
-	  def index
+  def index
     @movimiento = Movimiento.all
   end
 
