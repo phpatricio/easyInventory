@@ -1,0 +1,2 @@
+Nombre Cliente <%= @cliente.nombre %>
+<br> fecha <%= @nombre.fecha %>

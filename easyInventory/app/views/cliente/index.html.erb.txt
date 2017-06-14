@@ -1,0 +1,23 @@
+<h1> <%= link_to 'CREAR NUEVO CLIENTE', nuevo_cliente_path %> </h1>
+<table class="table">
+  <thead>
+  <tr>
+    <th>Nombre</th>
+    <th>Fecha</th>
+    <th>Mostrar</th>
+    <th>editar</th>
+    <th>eliminar</th>
+  </tr>
+  </thead>
+  <tbody>
+  <% @clientes.each do |actual| %>
+      <tr>
+        <td><%= actual.nombre %></td>
+        <td><%= actual.fecha %></td>
+        <td><%= link_to 'Mostrar', cliente_url(actual) %></td>
+        <td> <%= link_to 'Editar', editar_cliente_path(actual) %></td>
+        <td><%= link_to 'Eliminar', actual, method: :delete, data: {confirm: 'Esta seguro de eliminarlo completamente?'} %></td>
+      </tr>
+  <% end %>
+  </tbody>
+</table>

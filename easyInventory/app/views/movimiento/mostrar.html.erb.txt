@@ -1,0 +1,2 @@
+Codigo Movimiento <%= @movimiento.nombre %>
+<br> codigo producto<%= @movimiento.fecha %>

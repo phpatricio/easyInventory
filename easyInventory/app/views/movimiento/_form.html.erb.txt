@@ -1,0 +1,14 @@
+
+<%= form_for(@movimiento, :html => {:role => 'form'}) do |f| %>
+    <% if @auto.errors.any? %>
+        <%= pluralize(@(@movimiento, .errors.count, "error") %>
+
+        <% @(@movimiento, .errors.full_messages.each do |actual| %>
+            <%= actual %>
+        <% end %>
+    <% end %>
+    <%= f.label :id_producto %>
+    <%= f.text_field :id_cliente %>
+
+    <%= f.submit %>
+<% end %>
