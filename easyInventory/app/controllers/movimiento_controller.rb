@@ -1,0 +1,2 @@
+class MovimientoController < ApplicationController
+end
