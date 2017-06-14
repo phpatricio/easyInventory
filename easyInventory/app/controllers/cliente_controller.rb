@@ -39,7 +39,7 @@ class ClienteController < ApplicationController
   def eliminar
     @cliente.destroy
     respond_to do |format|
-      format.html {redirect_to autos_url, notice: 'fue eliminado'}
+      format.html {redirect_to clientes_url, notice: 'fue eliminado'}
     end
   end
 
