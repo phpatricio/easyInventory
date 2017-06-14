@@ -1,5 +1,5 @@
 class ClienteController < ApplicationController
-	  def index
+  def index
     @cliente = Cliente.all
   end
 
