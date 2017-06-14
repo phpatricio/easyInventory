@@ -1,0 +1,2 @@
+class VentumController < ApplicationController
+end

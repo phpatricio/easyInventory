@@ -1,0 +1,2 @@
+class TallerController < ApplicationController
+end
